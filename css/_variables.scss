@@ -1,4 +1,4 @@
-@use 'helpers' as *;
+@use 'helpers' as *; // для возможности использовать в файле миксины, функции и медиазапросы 
 
 :root {
     --color-light: #ffffff;
