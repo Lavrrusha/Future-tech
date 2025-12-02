@@ -385,14 +385,10 @@ template {
   overflow: hidden !important;
 }
 
-@media (width <= 47.99875rem) {
-  .hidden-mobile {
-    display: none !important;
-  }
-}
-
-@media (width <= 47.99875rem) {
-  .visible-mobile {
-    display: none !important;
-  }
+body {
+  font-size: clamp(0.875rem, 0.8112745098rem + 0.2614379085vw, 1.125rem);
+  font-family: var(--font-family-base);
+  letter-spacing: -0.03em;
+  color: var(--color-grey-50);
+  background-color: var(--color-dark);
 }/*# sourceMappingURL=main.css.map */
