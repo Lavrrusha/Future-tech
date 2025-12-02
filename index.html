@@ -8,14 +8,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap" rel="stylesheet">
-   
+
     <link rel="stylesheet" href="./css/main.css">
 
     <script src="./script/main.js" type="module" defer></script>
 </head>
 
 <body>
-    
+    <header class="header">
+        <div class="header__promo">
+            <div class="header__promo-inner wrapper"></div>
+            <div class="header__promo-link" href="#">
+                <span class="icon icon--yellow-arrow">Subscribe to our Newsletter For New & latest Blogs and
+                    Resources</span>
+            </div>
+        </div>
+
+        <div class="header__body">
+            <div class="header__body-inner wrapper">
+                <a class="header__logotype logotype" href="#" aria-label="Home" title="Home">
+                    <img class="logotype__image" src="./image/logotype.svg" alt="" width="179" height="50">
+                </a>
+
+             <div class="header__overlay">
+                   <nav class="menu-navigation">
+                    <ul class="menu-navigation__list">
+                        <li class="menu-navigation__item">
+                            <a class="menu-navigation__link is-active" href="#">Home</a>
+                        </li>
+
+                        <li class="menu-navigation__item">
+                            <a class="menu-navigation__link" href="#">News</a>
+                        </li>
+
+                        <li class="menu-navigation__item">
+                            <a class="menu-navigation__link" href="#">Podcasts</a>
+                        </li>
+
+                        <li class="menu-navigation__item">
+                            <a class="menu-navigation__link" href="#">Resources</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a class="contacts-us-link button button--accent" href="#">Contact Us</a>
+
+                <button class="burger-menu burger-button visible-mobile" type="button" aria-label="Open menu" title="Open menu">
+                    <span class="burger-button__line"></span>
+                </button>
+             </div>
+            </div>
+
+        </div>
+    </header>
 </body>
 
 </html>
